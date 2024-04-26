@@ -1,5 +1,5 @@
-package controller
+package controllers
 
 import "github.com/gin-gonic/gin"
 
-func UpdateUser(c *gin.Context) {}
+func (uc *userControllerInterface) UpdateUser(c *gin.Context) {}

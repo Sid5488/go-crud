@@ -5,6 +5,9 @@ import (
 	"github.com/Sid5488/go-crud/src/models"
 )
 
-func (ud *userDomainService) UpdateUser(string, models.UserDomainInterface) *rest_err.RestErr {
+func (ud *userDomainService) UpdateUser(
+	string,
+	models.UserDomainInterface,
+) *rest_err.RestErr {
 	return nil
 }
