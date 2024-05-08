@@ -17,7 +17,7 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	// init dependencies
+	// Init dependencies
 	service := services.NewUserDomainService()
 	userController := controllers.NewUserControllerInterface(service)
 
